@@ -1,0 +1,18 @@
+_pycache_/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+# never commit downloaded datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# allow committing generated outputs
+reports/results/*
+reports/figures/*
+reports/models/*
+!reports/results/.gitkeep
+!reports/figures/.gitkeep
+!reports/models/.gitkeep
